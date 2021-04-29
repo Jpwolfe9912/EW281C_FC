@@ -675,8 +675,8 @@ L Connector_Generic:Conn_01x03 J?
 U 1 1 608E6C63
 P 2650 3750
 AR Path="/608E6C63" Ref="J?"  Part="1" 
-AR Path="/60A7361B/608E6C63" Ref="J?"  Part="1" 
-F 0 "J?" H 2730 3792 50  0000 L CNN
+AR Path="/60A7361B/608E6C63" Ref="J5"  Part="1" 
+F 0 "J5" H 2730 3792 50  0000 L CNN
 F 1 "Conn_01x03" H 2400 3550 50  0000 L CNN
 F 2 "Connector_Wire:SolderWire-0.1sqmm_1x03_P3.6mm_D0.4mm_OD1mm" H 2650 3750 50  0001 C CNN
 F 3 "~" H 2650 3750 50  0001 C CNN
