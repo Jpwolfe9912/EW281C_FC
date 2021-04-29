@@ -1,2 +1,1 @@
-# EW281C_FC
-Flight Controller for EW281C
+# F722-FC-V3
