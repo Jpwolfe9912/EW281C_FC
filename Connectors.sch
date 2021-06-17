@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 8
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -14,82 +14,17 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x04 J?
-U 1 1 60A86529
-P 2650 4300
-AR Path="/60A86529" Ref="J?"  Part="1" 
-AR Path="/60A7361B/60A86529" Ref="J17"  Part="1" 
-F 0 "J17" H 2730 4292 50  0000 L CNN
-F 1 "Conn_01x04" H 2400 4500 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.1sqmm_1x04_P3.6mm_D0.4mm_OD1mm" H 2650 4300 50  0001 C CNN
-F 3 "~" H 2650 4300 50  0001 C CNN
-	1    2650 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 60A86532
-P 9400 3600
-AR Path="/60A86532" Ref="J?"  Part="1" 
-AR Path="/60A7361B/60A86532" Ref="J1"  Part="1" 
-F 0 "J1" H 9480 3592 50  0000 L CNN
-F 1 "Conn_01x02" H 9150 3700 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm" H 9400 3600 50  0001 C CNN
-F 3 "~" H 9400 3600 50  0001 C CNN
-	1    9400 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60A86538
-P 9200 3700
-AR Path="/60A86538" Ref="#PWR?"  Part="1" 
-AR Path="/60A7361B/60A86538" Ref="#PWR0130"  Part="1" 
-F 0 "#PWR0130" H 9200 3450 50  0001 C CNN
-F 1 "GND" V 9205 3527 50  0000 C CNN
-F 2 "" H 9200 3700 50  0001 C CNN
-F 3 "" H 9200 3700 50  0001 C CNN
-	1    9200 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 60A8653E
-P 9200 3600
-AR Path="/60A8653E" Ref="#PWR?"  Part="1" 
-AR Path="/60A7361B/60A8653E" Ref="#PWR0131"  Part="1" 
-F 0 "#PWR0131" H 9200 3450 50  0001 C CNN
-F 1 "+3.3V" V 9200 3800 50  0000 C CNN
-F 2 "" H 9200 3600 50  0001 C CNN
-F 3 "" H 9200 3600 50  0001 C CNN
-	1    9200 3600
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 60A86544
-P 10400 4100
+P 8800 4050
 AR Path="/60A86544" Ref="J?"  Part="1" 
 AR Path="/60A7361B/60A86544" Ref="J12"  Part="1" 
-F 0 "J12" H 10480 4092 50  0000 L CNN
-F 1 "Conn_01x02" H 10150 4200 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm" H 10400 4100 50  0001 C CNN
-F 3 "~" H 10400 4100 50  0001 C CNN
-	1    10400 4100
+F 0 "J12" H 8880 4042 50  0000 L CNN
+F 1 "Conn_01x02" H 8550 3850 50  0000 L CNN
+F 2 "Connector_Wire:Conn_2Pin" H 8800 4050 50  0001 C CNN
+F 3 "~" H 8800 4050 50  0001 C CNN
+	1    8800 4050
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60A8654A
-P 2450 4300
-AR Path="/60A8654A" Ref="#PWR?"  Part="1" 
-AR Path="/60A7361B/60A8654A" Ref="#PWR0132"  Part="1" 
-F 0 "#PWR0132" H 2450 4050 50  0001 C CNN
-F 1 "GND" V 2455 4127 50  0000 C CNN
-F 2 "" H 2450 4300 50  0001 C CNN
-F 3 "" H 2450 4300 50  0001 C CNN
-	1    2450 4300
-	0    1    1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J?
@@ -99,7 +34,7 @@ AR Path="/60A86550" Ref="J?"  Part="1"
 AR Path="/60A7361B/60A86550" Ref="J3"  Part="1" 
 F 0 "J3" H 6830 3642 50  0000 L CNN
 F 1 "Conn_01x04" H 6500 3350 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.1sqmm_1x04_P3.6mm_D0.4mm_OD1mm" H 6750 3650 50  0001 C CNN
+F 2 "Connector_Wire:Conn_4Pin" H 6750 3650 50  0001 C CNN
 F 3 "~" H 6750 3650 50  0001 C CNN
 	1    6750 3650
 	1    0    0    -1  
@@ -133,100 +68,46 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J?
 U 1 1 60A8657B
-P 10400 3650
+P 8800 3600
 AR Path="/60A8657B" Ref="J?"  Part="1" 
 AR Path="/60A7361B/60A8657B" Ref="J4"  Part="1" 
-F 0 "J4" H 10480 3692 50  0000 L CNN
-F 1 "Conn_01x03" H 10150 3450 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.1sqmm_1x03_P3.6mm_D0.4mm_OD1mm" H 10400 3650 50  0001 C CNN
-F 3 "~" H 10400 3650 50  0001 C CNN
-	1    10400 3650
+F 0 "J4" H 8880 3642 50  0000 L CNN
+F 1 "Conn_01x03" H 8550 3400 50  0000 L CNN
+F 2 "Connector_Wire:Conn_3Pin" H 8800 3600 50  0001 C CNN
+F 3 "~" H 8800 3600 50  0000 C CNN
+	1    8800 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 60A86581
-P 10200 3550
+P 8600 3500
 AR Path="/60A86581" Ref="#PWR?"  Part="1" 
 AR Path="/60A7361B/60A86581" Ref="#PWR0135"  Part="1" 
-F 0 "#PWR0135" H 10200 3400 50  0001 C CNN
-F 1 "+5V" V 10215 3678 50  0000 L CNN
-F 2 "" H 10200 3550 50  0001 C CNN
-F 3 "" H 10200 3550 50  0001 C CNN
-	1    10200 3550
+F 0 "#PWR0135" H 8600 3350 50  0001 C CNN
+F 1 "+5V" V 8615 3628 50  0000 L CNN
+F 2 "" H 8600 3500 50  0001 C CNN
+F 3 "" H 8600 3500 50  0001 C CNN
+	1    8600 3500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60A86587
-P 10200 3650
+P 8600 3600
 AR Path="/60A86587" Ref="#PWR?"  Part="1" 
 AR Path="/60A7361B/60A86587" Ref="#PWR0136"  Part="1" 
-F 0 "#PWR0136" H 10200 3400 50  0001 C CNN
-F 1 "GND" V 10205 3477 50  0000 C CNN
-F 2 "" H 10200 3650 50  0001 C CNN
-F 3 "" H 10200 3650 50  0001 C CNN
-	1    10200 3650
+F 0 "#PWR0136" H 8600 3350 50  0001 C CNN
+F 1 "GND" V 8605 3427 50  0000 C CNN
+F 2 "" H 8600 3600 50  0001 C CNN
+F 3 "" H 8600 3600 50  0001 C CNN
+	1    8600 3600
 	0    1    1    0   
 $EndComp
 Text Notes 3050 3450 0    118  ~ 24
 FC to ESC Harness
-$Comp
-L Connector_Generic:Conn_01x04 J?
-U 1 1 60A86590
-P 6750 4200
-AR Path="/60A86590" Ref="J?"  Part="1" 
-AR Path="/60A7361B/60A86590" Ref="J15"  Part="1" 
-F 0 "J15" H 6830 4192 50  0000 L CNN
-F 1 "Conn_01x04" H 6500 3900 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.1sqmm_1x04_P3.6mm_D0.4mm_OD1mm" H 6750 4200 50  0001 C CNN
-F 3 "~" H 6750 4200 50  0001 C CNN
-	1    6750 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60A86597
-P 6550 4200
-AR Path="/60A86597" Ref="#PWR?"  Part="1" 
-AR Path="/60A7361B/60A86597" Ref="#PWR0137"  Part="1" 
-F 0 "#PWR0137" H 6550 3950 50  0001 C CNN
-F 1 "GND" V 6555 4027 50  0000 C CNN
-F 2 "" H 6550 4200 50  0001 C CNN
-F 3 "" H 6550 4200 50  0001 C CNN
-	1    6550 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 60A8659D
-P 6550 4100
-AR Path="/60A8659D" Ref="#PWR?"  Part="1" 
-AR Path="/60A7361B/60A8659D" Ref="#PWR0138"  Part="1" 
-F 0 "#PWR0138" H 6550 3950 50  0001 C CNN
-F 1 "+5V" V 6550 4200 50  0000 L CNN
-F 2 "" H 6550 4100 50  0001 C CNN
-F 3 "" H 6550 4100 50  0001 C CNN
-	1    6550 4100
-	0    -1   -1   0   
-$EndComp
 Text Notes 5250 3450 0    118  ~ 24
 UARTS
-$Comp
-L power:GND #PWR?
-U 1 1 60A865A5
-P 2450 3750
-AR Path="/60A865A5" Ref="#PWR?"  Part="1" 
-AR Path="/60A7361B/60A865A5" Ref="#PWR0139"  Part="1" 
-F 0 "#PWR0139" H 2450 3500 50  0001 C CNN
-F 1 "GND" V 2455 3577 50  0000 C CNN
-F 2 "" H 2450 3750 50  0001 C CNN
-F 3 "" H 2450 3750 50  0001 C CNN
-	1    2450 3750
-	0    1    1    0   
-$EndComp
-Text Notes 2000 3450 0    118  ~ 24
-CAMERA
 $Comp
 L power:VCC #PWR?
 U 1 1 60A865C1
@@ -254,45 +135,6 @@ F 3 "~" H 3750 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 J?
-U 1 1 60A865CF
-P 7850 3800
-AR Path="/60A865CF" Ref="J?"  Part="1" 
-AR Path="/60A7361B/60A865CF" Ref="J6"  Part="1" 
-F 0 "J6" H 7900 3500 50  0000 L CNN
-F 1 "Conn_01x06" V 7950 3600 50  0000 L CNN
-F 2 "Footprints:JST_SM06B-SRSS-TB(LF)(SN)" H 7850 3800 50  0001 C CNN
-F 3 "~" H 7850 3800 50  0001 C CNN
-	1    7850 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60A865D9
-P 7650 4000
-AR Path="/60A865D9" Ref="#PWR?"  Part="1" 
-AR Path="/60A7361B/60A865D9" Ref="#PWR0141"  Part="1" 
-F 0 "#PWR0141" H 7650 3750 50  0001 C CNN
-F 1 "GND" V 7655 3872 50  0000 R CNN
-F 2 "" H 7650 4000 50  0001 C CNN
-F 3 "" H 7650 4000 50  0001 C CNN
-	1    7650 4000
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60A865DF
-P 7650 3700
-AR Path="/60A865DF" Ref="#PWR?"  Part="1" 
-AR Path="/60A7361B/60A865DF" Ref="#PWR0142"  Part="1" 
-F 0 "#PWR0142" H 7650 3450 50  0001 C CNN
-F 1 "GND" V 7655 3572 50  0000 R CNN
-F 2 "" H 7650 3700 50  0001 C CNN
-F 3 "" H 7650 3700 50  0001 C CNN
-	1    7650 3700
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x04 J?
 U 1 1 60A865E5
 P 5900 3650
@@ -300,7 +142,7 @@ AR Path="/60A865E5" Ref="J?"  Part="1"
 AR Path="/60A7361B/60A865E5" Ref="J2"  Part="1" 
 F 0 "J2" H 5980 3642 50  0000 L CNN
 F 1 "Conn_01x04" H 5650 3350 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.1sqmm_1x04_P3.6mm_D0.4mm_OD1mm" H 5900 3650 50  0001 C CNN
+F 2 "Connector_Wire:Conn_4Pin" H 5900 3650 50  0001 C CNN
 F 3 "~" H 5900 3650 50  0001 C CNN
 	1    5900 3650
 	1    0    0    -1  
@@ -326,7 +168,7 @@ AR Path="/60A865F3" Ref="J?"  Part="1"
 AR Path="/60A7361B/60A865F3" Ref="J14"  Part="1" 
 F 0 "J14" H 5980 4192 50  0000 L CNN
 F 1 "Conn_01x04" H 5650 3900 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.1sqmm_1x04_P3.6mm_D0.4mm_OD1mm" H 5900 4200 50  0001 C CNN
+F 2 "Connector_Wire:Conn_4Pin" H 5900 4200 50  0001 C CNN
 F 3 "~" H 5900 4200 50  0001 C CNN
 	1    5900 4200
 	1    0    0    -1  
@@ -399,40 +241,40 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J?
 U 1 1 60A8661B
-P 9400 4100
+P 7800 4050
 AR Path="/60A8661B" Ref="J?"  Part="1" 
 AR Path="/60A7361B/60A8661B" Ref="J11"  Part="1" 
-F 0 "J11" H 9480 4142 50  0000 L CNN
-F 1 "Conn_01x03" H 9150 3900 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.1sqmm_1x03_P3.6mm_D0.4mm_OD1mm" H 9400 4100 50  0001 C CNN
-F 3 "~" H 9400 4100 50  0001 C CNN
-	1    9400 4100
+F 0 "J11" H 7880 4092 50  0000 L CNN
+F 1 "Conn_01x03" H 7550 3850 50  0000 L CNN
+F 2 "Connector_Wire:Conn_3Pin" H 7800 4050 50  0001 C CNN
+F 3 "~" H 7800 4050 50  0001 C CNN
+	1    7800 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 60A86621
-P 9200 4000
+P 7600 3950
 AR Path="/60A86621" Ref="#PWR?"  Part="1" 
 AR Path="/60A7361B/60A86621" Ref="#PWR0148"  Part="1" 
-F 0 "#PWR0148" H 9200 3850 50  0001 C CNN
-F 1 "+5V" V 9215 4128 50  0000 L CNN
-F 2 "" H 9200 4000 50  0001 C CNN
-F 3 "" H 9200 4000 50  0001 C CNN
-	1    9200 4000
+F 0 "#PWR0148" H 7600 3800 50  0001 C CNN
+F 1 "+5V" V 7615 4078 50  0000 L CNN
+F 2 "" H 7600 3950 50  0001 C CNN
+F 3 "" H 7600 3950 50  0001 C CNN
+	1    7600 3950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60A86627
-P 9200 4100
+P 7600 4050
 AR Path="/60A86627" Ref="#PWR?"  Part="1" 
 AR Path="/60A7361B/60A86627" Ref="#PWR0149"  Part="1" 
-F 0 "#PWR0149" H 9200 3850 50  0001 C CNN
-F 1 "GND" V 9205 3927 50  0000 C CNN
-F 2 "" H 9200 4100 50  0001 C CNN
-F 3 "" H 9200 4100 50  0001 C CNN
-	1    9200 4100
+F 0 "#PWR0149" H 7600 3800 50  0001 C CNN
+F 1 "GND" V 7605 3877 50  0000 C CNN
+F 2 "" H 7600 4050 50  0001 C CNN
+F 3 "" H 7600 4050 50  0001 C CNN
+	1    7600 4050
 	0    1    1    0   
 $EndComp
 $Comp
@@ -448,72 +290,18 @@ F 3 "" H 5750 4100 50  0001 C CNN
 	1    5750 4100
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x06 J?
-U 1 1 60A86634
-P 8250 3800
-AR Path="/60A86634" Ref="J?"  Part="1" 
-AR Path="/60A7361B/60A86634" Ref="J7"  Part="1" 
-F 0 "J7" H 8300 3500 50  0000 L CNN
-F 1 "Conn_01x06" V 8350 3600 50  0000 L CNN
-F 2 "Connector_Wire:Connector_Wire_Solder_DJI" H 8250 3800 50  0001 C CNN
-F 3 "~" H 8250 3800 50  0001 C CNN
-	1    8250 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+9V #PWR?
-U 1 1 60A86649
-P 2450 3650
-AR Path="/60A86649" Ref="#PWR?"  Part="1" 
-AR Path="/60A7361B/60A86649" Ref="#PWR0151"  Part="1" 
-F 0 "#PWR0151" H 2450 3500 50  0001 C CNN
-F 1 "+9V" V 2465 3778 50  0000 L CNN
-F 2 "" H 2450 3650 50  0001 C CNN
-F 3 "" H 2450 3650 50  0001 C CNN
-	1    2450 3650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+9V #PWR?
-U 1 1 60A8664F
-P 2450 4200
-AR Path="/60A8664F" Ref="#PWR?"  Part="1" 
-AR Path="/60A7361B/60A8664F" Ref="#PWR0152"  Part="1" 
-F 0 "#PWR0152" H 2450 4050 50  0001 C CNN
-F 1 "+9V" V 2465 4328 50  0000 L CNN
-F 2 "" H 2450 4200 50  0001 C CNN
-F 3 "" H 2450 4200 50  0001 C CNN
-	1    2450 4200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+9V #PWR?
-U 1 1 60A86655
-P 7650 3600
-AR Path="/60A86655" Ref="#PWR?"  Part="1" 
-AR Path="/60A7361B/60A86655" Ref="#PWR0153"  Part="1" 
-F 0 "#PWR0153" H 7650 3450 50  0001 C CNN
-F 1 "+9V" V 7665 3728 50  0000 L CNN
-F 2 "" H 7650 3600 50  0001 C CNN
-F 3 "" H 7650 3600 50  0001 C CNN
-	1    7650 3600
-	0    -1   -1   0   
-$EndComp
-Text HLabel 10200 4100 0    50   Input ~ 0
+Text HLabel 8600 4050 0    50   Input ~ 0
 I2C1_SDA
-Text HLabel 10200 4200 0    50   Input ~ 0
+Text HLabel 8600 4150 0    50   Input ~ 0
 I2C1_SCL
 Text HLabel 1400 4100 0    50   Input ~ 0
 SWCLK
 Text HLabel 1400 4000 0    50   Input ~ 0
 SWDIO
-Text HLabel 10200 3750 0    50   Input ~ 0
+Text HLabel 8600 3700 0    50   Input ~ 0
 BUZ-
-Text HLabel 9200 4200 0    50   Input ~ 0
+Text HLabel 7600 4150 0    50   Input ~ 0
 LED
-Text HLabel 1400 4300 0    50   Input ~ 0
-SWO
 Text HLabel 5700 3750 0    50   Input ~ 0
 UART3_RX
 Text HLabel 5700 3850 0    50   Input ~ 0
@@ -522,35 +310,10 @@ Text HLabel 5700 4300 0    50   Input ~ 0
 UART2_RX
 Text HLabel 5700 4400 0    50   Input ~ 0
 UART2_TX
-Text HLabel 6550 4400 0    50   Input ~ 0
-UART1_TX
-Text HLabel 6550 4300 0    50   Input ~ 0
-UART1_RX
 Text HLabel 6550 3850 0    50   Input ~ 0
 UART6_TX
 Text HLabel 6550 3750 0    50   Input ~ 0
 UART6_RX
-Text HLabel 7650 3800 0    50   Input ~ 0
-UART2_TX
-Text HLabel 7650 3900 0    50   Input ~ 0
-UART2_RX
-Text HLabel 7650 4100 0    50   Input ~ 0
-UART3_RX
-Wire Wire Line
-	7650 3600 8050 3600
-Connection ~ 7650 3600
-Wire Wire Line
-	7650 3700 8050 3700
-Connection ~ 7650 3700
-Wire Wire Line
-	7650 3800 8050 3800
-Wire Wire Line
-	7650 3900 8050 3900
-Wire Wire Line
-	7650 4000 8050 4000
-Connection ~ 7650 4000
-Wire Wire Line
-	7650 4100 8050 4100
 $Comp
 L power:GND #PWR?
 U 1 1 60A86572
@@ -585,7 +348,7 @@ AR Path="/60A86564" Ref="J?"  Part="1"
 AR Path="/60A7361B/60A86564" Ref="J10"  Part="1" 
 F 0 "J10" H 4930 3992 50  0000 L CNN
 F 1 "Conn_01x08" H 4550 4400 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.1sqmm_1x08_D0.4mm_OD1mm" H 4850 4000 50  0001 C CNN
+F 2 "Connector_Wire:Conn_FC_Solder_8" H 4850 4000 50  0001 C CNN
 F 3 "~" H 4850 4000 50  0001 C CNN
 	1    4850 4000
 	1    0    0    -1  
@@ -643,44 +406,64 @@ Wire Wire Line
 	4400 4250 4400 4300
 Wire Wire Line
 	4400 4300 4650 4300
-Text HLabel 2450 3850 0    50   Input ~ 0
-CAM
-Text HLabel 2450 4400 0    50   Input ~ 0
-UART1_TX
-Text HLabel 2450 4500 0    50   Input ~ 0
-VID
-Text Notes 7300 3450 0    118  ~ 24
-DJI
 Text Notes 1150 3500 0    118  ~ 24
 SWD
-Text Notes 8900 3450 0    118  ~ 24
+Text Notes 7300 3400 0    118  ~ 24
 Other
-$Comp
-L Connector_Generic:Conn_01x01 J16
-U 1 1 608B8746
-P 1600 4300
-F 0 "J16" H 1680 4342 50  0000 L CNN
-F 1 "Conn_01x01" H 1400 4200 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1600 4300 50  0001 C CNN
-F 3 "~" H 1600 4300 50  0001 C CNN
-	1    1600 4300
-	1    0    0    -1  
-$EndComp
 Text Notes 3650 4650 0    79   ~ 16
 JST
 Text Notes 4650 4650 0    79   ~ 16
 Solder
 $Comp
-L Connector_Generic:Conn_01x03 J?
-U 1 1 608E6C63
-P 2650 3750
-AR Path="/608E6C63" Ref="J?"  Part="1" 
-AR Path="/60A7361B/608E6C63" Ref="J5"  Part="1" 
-F 0 "J5" H 2730 3792 50  0000 L CNN
-F 1 "Conn_01x03" H 2400 3550 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.1sqmm_1x03_P3.6mm_D0.4mm_OD1mm" H 2650 3750 50  0001 C CNN
-F 3 "~" H 2650 3750 50  0001 C CNN
-	1    2650 3750
+L Connector:USB_B_Micro J?
+U 1 1 60AD89B5
+P 2250 4000
+AR Path="/60AD89B5" Ref="J?"  Part="1" 
+AR Path="/60A7361B/60AD89B5" Ref="J5"  Part="1" 
+F 0 "J5" H 2000 4350 50  0000 C CNN
+F 1 "USB_B_Micro" H 2350 4350 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_GCT_USB3076-30-A" H 2400 3950 50  0001 C CNN
+F 3 "~" H 2400 3950 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/gct/USB3076-30-A/9859635" H 2250 4000 50  0001 C CNN "Link"
+	1    2250 4000
 	1    0    0    -1  
 $EndComp
+NoConn ~ 2550 4200
+$Comp
+L power:GND #PWR?
+U 1 1 60AD89BC
+P 2250 4400
+AR Path="/60AD89BC" Ref="#PWR?"  Part="1" 
+AR Path="/60A7361B/60AD89BC" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 2250 4150 50  0001 C CNN
+F 1 "GND" H 2400 4350 50  0000 C CNN
+F 2 "" H 2250 4400 50  0001 C CNN
+F 3 "" H 2250 4400 50  0001 C CNN
+	1    2250 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 4400 2250 4400
+$Comp
+L power:+5V_USB #PWR?
+U 1 1 60AD89C3
+P 2700 3750
+AR Path="/60AD89C3" Ref="#PWR?"  Part="1" 
+AR Path="/60A7361B/60AD89C3" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 2700 3650 50  0001 C CNN
+F 1 "+5V_USB" H 2900 3850 50  0000 C CNN
+F 2 "" H 2700 3750 50  0001 C CNN
+F 3 "" H 2700 3750 50  0001 C CNN
+	1    2700 3750
+	1    0    0    -1  
+$EndComp
+Connection ~ 2250 4400
+Wire Wire Line
+	2700 3800 2700 3750
+Wire Wire Line
+	2700 3800 2550 3800
+Text HLabel 2550 4000 2    50   Input ~ 0
+USB_D+
+Text HLabel 2550 4100 2    50   Input ~ 0
+USB_D-
 $EndSCHEMATC
