@@ -27,32 +27,6 @@ F 3 "~" H 8800 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J?
-U 1 1 60A86550
-P 6750 3650
-AR Path="/60A86550" Ref="J?"  Part="1" 
-AR Path="/60A7361B/60A86550" Ref="J3"  Part="1" 
-F 0 "J3" H 6830 3642 50  0000 L CNN
-F 1 "Conn_01x04" H 6500 3350 50  0000 L CNN
-F 2 "Connector_Wire:Conn_4Pin" H 6750 3650 50  0001 C CNN
-F 3 "~" H 6750 3650 50  0001 C CNN
-	1    6750 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60A86558
-P 6550 3650
-AR Path="/60A86558" Ref="#PWR?"  Part="1" 
-AR Path="/60A7361B/60A86558" Ref="#PWR0133"  Part="1" 
-F 0 "#PWR0133" H 6550 3400 50  0001 C CNN
-F 1 "GND" V 6555 3477 50  0000 C CNN
-F 2 "" H 6550 3650 50  0001 C CNN
-F 3 "" H 6550 3650 50  0001 C CNN
-	1    6550 3650
-	0    1    1    0   
-$EndComp
-$Comp
 L power:+5V #PWR?
 U 1 1 60A8655E
 P 5700 3550
@@ -64,45 +38,6 @@ F 2 "" H 5700 3550 50  0001 C CNN
 F 3 "" H 5700 3550 50  0001 C CNN
 	1    5700 3550
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J?
-U 1 1 60A8657B
-P 8800 3600
-AR Path="/60A8657B" Ref="J?"  Part="1" 
-AR Path="/60A7361B/60A8657B" Ref="J4"  Part="1" 
-F 0 "J4" H 8880 3642 50  0000 L CNN
-F 1 "Conn_01x03" H 8550 3400 50  0000 L CNN
-F 2 "Connector_Wire:Conn_3Pin" H 8800 3600 50  0001 C CNN
-F 3 "~" H 8800 3600 50  0000 C CNN
-	1    8800 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 60A86581
-P 8600 3500
-AR Path="/60A86581" Ref="#PWR?"  Part="1" 
-AR Path="/60A7361B/60A86581" Ref="#PWR0135"  Part="1" 
-F 0 "#PWR0135" H 8600 3350 50  0001 C CNN
-F 1 "+5V" V 8615 3628 50  0000 L CNN
-F 2 "" H 8600 3500 50  0001 C CNN
-F 3 "" H 8600 3500 50  0001 C CNN
-	1    8600 3500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60A86587
-P 8600 3600
-AR Path="/60A86587" Ref="#PWR?"  Part="1" 
-AR Path="/60A7361B/60A86587" Ref="#PWR0136"  Part="1" 
-F 0 "#PWR0136" H 8600 3350 50  0001 C CNN
-F 1 "GND" V 8605 3427 50  0000 C CNN
-F 2 "" H 8600 3600 50  0001 C CNN
-F 3 "" H 8600 3600 50  0001 C CNN
-	1    8600 3600
-	0    1    1    0   
 $EndComp
 Text Notes 3050 3450 0    118  ~ 24
 FC to ESC Harness
@@ -161,19 +96,6 @@ F 3 "" H 5700 3650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J?
-U 1 1 60A865F3
-P 5900 4200
-AR Path="/60A865F3" Ref="J?"  Part="1" 
-AR Path="/60A7361B/60A865F3" Ref="J14"  Part="1" 
-F 0 "J14" H 5980 4192 50  0000 L CNN
-F 1 "Conn_01x04" H 5650 3900 50  0000 L CNN
-F 2 "Connector_Wire:Conn_4Pin" H 5900 4200 50  0001 C CNN
-F 3 "~" H 5900 4200 50  0001 C CNN
-	1    5900 4200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 60A865FB
 P 5700 4200
@@ -185,19 +107,6 @@ F 2 "" H 5700 4200 50  0001 C CNN
 F 3 "" H 5700 4200 50  0001 C CNN
 	1    5700 4200
 	0    1    1    0   
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 60A86601
-P 6550 3550
-AR Path="/60A86601" Ref="#PWR?"  Part="1" 
-AR Path="/60A7361B/60A86601" Ref="#PWR0145"  Part="1" 
-F 0 "#PWR0145" H 6550 3400 50  0001 C CNN
-F 1 "+5V" V 6550 3650 50  0000 L CNN
-F 2 "" H 6550 3550 50  0001 C CNN
-F 3 "" H 6550 3550 50  0001 C CNN
-	1    6550 3550
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J?
@@ -246,7 +155,7 @@ AR Path="/60A8661B" Ref="J?"  Part="1"
 AR Path="/60A7361B/60A8661B" Ref="J11"  Part="1" 
 F 0 "J11" H 7880 4092 50  0000 L CNN
 F 1 "Conn_01x03" H 7550 3850 50  0000 L CNN
-F 2 "Connector_Wire:Conn_3Pin" H 7800 4050 50  0001 C CNN
+F 2 "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal" H 7800 4050 50  0001 C CNN
 F 3 "~" H 7800 4050 50  0001 C CNN
 	1    7800 4050
 	1    0    0    -1  
@@ -277,19 +186,6 @@ F 3 "" H 7600 4050 50  0001 C CNN
 	1    7600 4050
 	0    1    1    0   
 $EndComp
-$Comp
-L power:4V5 #PWR?
-U 1 1 60A8662E
-P 5750 4100
-AR Path="/60A8662E" Ref="#PWR?"  Part="1" 
-AR Path="/60A7361B/60A8662E" Ref="#PWR0150"  Part="1" 
-F 0 "#PWR0150" H 5925 4175 50  0001 C CNN
-F 1 "4V5" V 5735 4303 50  0000 L CNN
-F 2 "" H 5750 4100 50  0001 C CNN
-F 3 "" H 5750 4100 50  0001 C CNN
-	1    5750 4100
-	0    -1   -1   0   
-$EndComp
 Text HLabel 8600 4050 0    50   Input ~ 0
 I2C1_SDA
 Text HLabel 8600 4150 0    50   Input ~ 0
@@ -298,22 +194,14 @@ Text HLabel 1400 4100 0    50   Input ~ 0
 SWCLK
 Text HLabel 1400 4000 0    50   Input ~ 0
 SWDIO
-Text HLabel 8600 3700 0    50   Input ~ 0
-BUZ-
 Text HLabel 7600 4150 0    50   Input ~ 0
 LED
 Text HLabel 5700 3750 0    50   Input ~ 0
 UART3_RX
 Text HLabel 5700 3850 0    50   Input ~ 0
 UART3_TX
-Text HLabel 5700 4300 0    50   Input ~ 0
+Text HLabel 5700 4100 0    50   Input ~ 0
 UART2_RX
-Text HLabel 5700 4400 0    50   Input ~ 0
-UART2_TX
-Text HLabel 6550 3850 0    50   Input ~ 0
-UART6_TX
-Text HLabel 6550 3750 0    50   Input ~ 0
-UART6_RX
 $Comp
 L power:GND #PWR?
 U 1 1 60A86572
@@ -466,4 +354,26 @@ Text HLabel 2550 4000 2    50   Input ~ 0
 USB_D+
 Text HLabel 2550 4100 2    50   Input ~ 0
 USB_D-
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 60D627E8
+P 5900 4200
+F 0 "J1" H 5980 4242 50  0000 L CNN
+F 1 "Conn_01x03" H 5980 4151 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal" H 5900 4200 50  0001 C CNN
+F 3 "~" H 5900 4200 50  0001 C CNN
+	1    5900 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0104
+U 1 1 60D9A4F8
+P 5700 4300
+F 0 "#PWR0104" H 5700 4150 50  0001 C CNN
+F 1 "+3V3" V 5715 4428 50  0000 L CNN
+F 2 "" H 5700 4300 50  0001 C CNN
+F 3 "" H 5700 4300 50  0001 C CNN
+	1    5700 4300
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
