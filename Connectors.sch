@@ -16,14 +16,14 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 60A86544
-P 8800 4050
+P 8200 4100
 AR Path="/60A86544" Ref="J?"  Part="1" 
 AR Path="/60A7361B/60A86544" Ref="J12"  Part="1" 
-F 0 "J12" H 8880 4042 50  0000 L CNN
-F 1 "Conn_01x02" H 8550 3850 50  0000 L CNN
-F 2 "Connector_Wire:Conn_2Pin" H 8800 4050 50  0001 C CNN
-F 3 "~" H 8800 4050 50  0001 C CNN
-	1    8800 4050
+F 0 "J12" H 8280 4092 50  0000 L CNN
+F 1 "Conn_01x02" H 7950 3900 50  0000 L CNN
+F 2 "Connector_Wire:Conn_2Pin" H 8200 4100 50  0001 C CNN
+F 3 "~" H 8200 4100 50  0001 C CNN
+	1    8200 4100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -150,51 +150,51 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J?
 U 1 1 60A8661B
-P 7800 4050
+P 7200 4100
 AR Path="/60A8661B" Ref="J?"  Part="1" 
 AR Path="/60A7361B/60A8661B" Ref="J11"  Part="1" 
-F 0 "J11" H 7880 4092 50  0000 L CNN
-F 1 "Conn_01x03" H 7550 3850 50  0000 L CNN
-F 2 "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal" H 7800 4050 50  0001 C CNN
-F 3 "~" H 7800 4050 50  0001 C CNN
-	1    7800 4050
+F 0 "J11" H 7280 4142 50  0000 L CNN
+F 1 "Conn_01x03" H 6950 3900 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal" H 7200 4100 50  0001 C CNN
+F 3 "~" H 7200 4100 50  0001 C CNN
+	1    7200 4100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 60A86621
-P 7600 3950
+P 7000 4000
 AR Path="/60A86621" Ref="#PWR?"  Part="1" 
 AR Path="/60A7361B/60A86621" Ref="#PWR0148"  Part="1" 
-F 0 "#PWR0148" H 7600 3800 50  0001 C CNN
-F 1 "+5V" V 7615 4078 50  0000 L CNN
-F 2 "" H 7600 3950 50  0001 C CNN
-F 3 "" H 7600 3950 50  0001 C CNN
-	1    7600 3950
+F 0 "#PWR0148" H 7000 3850 50  0001 C CNN
+F 1 "+5V" V 7015 4128 50  0000 L CNN
+F 2 "" H 7000 4000 50  0001 C CNN
+F 3 "" H 7000 4000 50  0001 C CNN
+	1    7000 4000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60A86627
-P 7600 4050
+P 7000 4100
 AR Path="/60A86627" Ref="#PWR?"  Part="1" 
 AR Path="/60A7361B/60A86627" Ref="#PWR0149"  Part="1" 
-F 0 "#PWR0149" H 7600 3800 50  0001 C CNN
-F 1 "GND" V 7605 3877 50  0000 C CNN
-F 2 "" H 7600 4050 50  0001 C CNN
-F 3 "" H 7600 4050 50  0001 C CNN
-	1    7600 4050
+F 0 "#PWR0149" H 7000 3850 50  0001 C CNN
+F 1 "GND" V 7005 3927 50  0000 C CNN
+F 2 "" H 7000 4100 50  0001 C CNN
+F 3 "" H 7000 4100 50  0001 C CNN
+	1    7000 4100
 	0    1    1    0   
 $EndComp
-Text HLabel 8600 4050 0    50   Input ~ 0
+Text HLabel 8000 4100 0    50   Input ~ 0
 I2C1_SDA
-Text HLabel 8600 4150 0    50   Input ~ 0
+Text HLabel 8000 4200 0    50   Input ~ 0
 I2C1_SCL
 Text HLabel 1400 4100 0    50   Input ~ 0
 SWCLK
 Text HLabel 1400 4000 0    50   Input ~ 0
 SWDIO
-Text HLabel 7600 4150 0    50   Input ~ 0
+Text HLabel 7000 4200 0    50   Input ~ 0
 LED
 Text HLabel 5700 3750 0    50   Input ~ 0
 UART3_RX
@@ -296,7 +296,7 @@ Wire Wire Line
 	4400 4300 4650 4300
 Text Notes 1150 3500 0    118  ~ 24
 SWD
-Text Notes 7300 3400 0    118  ~ 24
+Text Notes 6700 3450 0    118  ~ 24
 Other
 Text Notes 3650 4650 0    79   ~ 16
 JST
